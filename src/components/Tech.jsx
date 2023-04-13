@@ -16,7 +16,7 @@ const Tech = () => {
   };
 
   if (isMobile) {
-    return render(
+    return (
       <>
         <motion.div variants={textVariant()}>
           <p className={`${styles.sectionSubText} text-center`}>
