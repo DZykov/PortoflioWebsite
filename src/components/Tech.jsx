@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { useState } from "react";
 import { fadeIn, textVariant } from "../utils/motion";
-import { isMobile, browserName, CustomView } from 'react-device-detect';
+import { isMobile } from 'react-device-detect';
 
 const Tech = () => {
   const [nameInput, setNameInput] = useState('The balls are 3D and interactable! Click on any ball to get more information about technology and my relation to it.');
@@ -34,34 +34,19 @@ const Tech = () => {
           {nameInput}
         </motion.p>
         <br></br>
-        <CustomView condition={browserName !== "Chrome" || browserName !== "Chromium"}>
-          <div className="flex flex-row flex-wrap justify-center gap-10">
-            {technologies.map((technology) => (
-              <div className="w-28 h-28 flex items-center justify-center rounded-full bg-tertiary shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300" key={technology.name}>
-                <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center transform hover:rotate-12 transition-all duration-300"
-                  onClick={(e) => {
-                    toggleHide(technology.description);
-                  }}>
-                  <img className="w-16 h-16" src={technology.icon} alt={technology.name} />
-                </div>
+
+        <div className="flex flex-row flex-wrap justify-center gap-10">
+          {technologies.map((technology) => (
+            <div className="w-28 h-28 flex items-center justify-center rounded-full bg-tertiary shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300" key={technology.name}>
+              <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center transform hover:rotate-12 transition-all duration-300"
+                onClick={(e) => {
+                  toggleHide(technology.description);
+                }}>
+                <img className="w-16 h-16" src={technology.icon} alt={technology.name} />
               </div>
-            ))}
-          </div>
-        </CustomView>
-        <CustomView condition={browserName === "Chrome" || browserName === "Chromium"}>
-          <div className="flex flex-row flex-wrap justify-center gap-10">
-            {technologies_min.map((technology) => (
-              <div className="w-28 h-28 flex items-center justify-center rounded-full bg-tertiary shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300" key={technology.name}>
-                <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center transform hover:rotate-12 transition-all duration-300"
-                  onClick={(e) => {
-                    toggleHide(technology.description);
-                  }}>
-                  <img className="w-16 h-16" src={technology.icon} alt={technology.name} />
-                </div>
-              </div>
-            ))}
-          </div>
-        </CustomView>
+            </div>
+          ))}
+        </div>
       </>
     )
   }
@@ -84,7 +69,7 @@ const Tech = () => {
       </motion.p>
       <br></br>
       <div className='flex flex-row flex-wrap justify-center gap-10'>
-        {technologies.map((technology) => (
+        {technologies_min.map((technology) => (
           <div className='w-28 h-28' key={technology.name}
             onClick={(e) => {
               toggleHide(technology.description);
