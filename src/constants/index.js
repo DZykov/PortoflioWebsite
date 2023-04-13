@@ -51,6 +51,14 @@ export const navLinks = [
         title: "Experience",
     },
     {
+        id: "tech",
+        title: "Skills",
+    },
+    {
+        id: "works",
+        title: "Projects",
+    },
+    {
         id: "contact",
         title: "Contact",
     },
@@ -78,82 +86,92 @@ const services = [
 const technologies = [
     {
         name: "C",
+        description: "I have been using C mainly for kernel manipulations, synchonization, and parallel programming. I have enough knowledge to build complex system/designs.",
         icon: c,
     },
     {
         name: "C++",
+        description: "I don't use C++ as my main programming language. I use C++ only for robotics and robot simulations.",
         icon: c_,
     },
     {
         name: "Java",
+        description: "Java is my first programming language that I learned proficiently. I use Java for AI and app development.",
         icon: java,
     },
     {
         name: "Python",
+        description: "Python is my second proficient language, but the most used one. I use Puthon for backend development, analysis, and app development.",
         icon: python,
     },
     {
         name: "Dart",
+        description: "I have started using Dart one year ago. I use Dart only for frontend development: web, iOS, Android, etc.",
         icon: dart,
     },
     {
         name: "JavaScript",
+        description: "I have started using Javascript two years ago. I use JS for web development and small servers.",
         icon: js,
     },
     {
         name: "Flask",
+        description: "Flask is my main framework for backend development. I can build complex APIs and real times servers.",
         icon: flask,
     },
     {
         name: "Django",
+        description: "I use Django only in large projects that require security, scability, or server-side rendering. I have sufficent knowledge to use it in production.",
         icon: django,
     },
     {
         name: "Node.js",
+        description: "Node.js is my favorite backend framework for small projects or real-time data transfers. I use it quite alot for prototypes.",
         icon: nodejs,
     },
     {
         name: "Flutter",
+        description: "Flutter is my main frontend framework. I can easily build web and mobiles app or create games.",
         icon: flutter,
     },
     {
         name: "React.js",
+        description: "I am quite new to React.js. However, I can easily build admirable user interfaces for web-applications and websites.",
         icon: reactjs,
     },
     {
         name: "Flame",
+        description: "Flame is an extension framework for Flutter. I use Flame to build web and mobile games. I love this framework for its simplicity and compatibility.",
         icon: flame,
     },
     {
-        name: "Docker",
-        icon: docker,
-    },
-    {
         name: "Nginx",
+        description: "I am a strong user of Nginx. This is the only web server that use in production for web apps, servers, and different platforms.",
         icon: nginx,
     },
     {
-        name: "Git",
-        icon: git,
-    },
-    {
         name: "PostreSQL",
+        description: "PostgreSQL is my favorite database management system. I use it almost every time as a data warehouse.",
         icon: postresql,
     },
     {
         name: "Bash",
+        description: "My main OS is Linux; thus, I am using Bash for almost 10 years. I use it to automate mechanial routines.",
         icon: terminal,
     },
     {
         name: "DigitalOcean",
+        description: "DigitalOcean is the cloud service provider that I know proficiently. I have deployed several large projects with DigitalOcean.",
         icon: do_,
     },
     {
         name: "Firebase",
+        description: "Firebase is a nice tool in my arsenal that allows quickly develop prototypes of apps and platforms.",
         icon: firebase,
     },
     {
         name: "GitHub",
+        description: "Well, it is hard to find someone who doesn't use GitHub. You can check all my projects here: github.com/DZykov .",
         icon: github,
     },
 ];
@@ -227,7 +245,7 @@ const projects = [
             },
         ],
         image: chrono,
-        project_link: ["app.chrono.pw", "chrono.pw/demid_zykov"],
+        project_link: ["https://app.chrono.pw", "https://chrono.pw/demid_zykov"],
         source_code_link: "https://github.com/DZykov/Chrono_public",
     },
     {
@@ -249,7 +267,7 @@ const projects = [
             },
         ],
         image: webchat,
-        project_link: ["webchat.zykov.xyz"],
+        project_link: ["https://webchat.zykov.xyz"],
         source_code_link: "https://github.com/DZykov/WebChat",
     },
     {
@@ -293,7 +311,7 @@ const projects = [
             },
         ],
         image: webshooter,
-        project_link: ["onlinegame.zykov.xyz"],
+        project_link: ["https://onlinegame.zykov.xyz"],
         source_code_link: "https://github.com/DZykov/MultiplayerWebGame",
     },
     {
@@ -314,8 +332,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: webshooter,
-        project_link: ["webgame.zykov.xyz"],
+        image: InfiniteFall,
+        project_link: ["https://webgame.zykov.xyz"],
         source_code_link: "https://github.com/DZykov/InfiniteFall",
     },
     {

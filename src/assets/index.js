@@ -7,6 +7,7 @@ import logo from "./general/logo.svg";
 import menu from "./general/menu.svg";
 import mobile from "./general/mobile.png";
 import web from "./general/web.png";
+import live from "./general/live.png";
 
 // projects
 import chrono from "./projects/chrono.png";
@@ -61,6 +62,7 @@ export {
   menu,
   mobile,
   web,
+  live,
   chrono,
   cmd_todos,
   genalg,
