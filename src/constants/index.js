@@ -86,67 +86,67 @@ const services = [
 const technologies_min = [
     {
         name: "C",
-        description: "I have been using C mainly for kernel manipulations, synchonization, and parallel programming. I have enough knowledge to build complex system/designs.",
+        description: "My primary use of C has been for manipulating kernels, synchronization, and parallel programming. With my proficiency in the language, I am capable of developing intricate systems and designs.",
         icon: c,
     },
     {
         name: "Java",
-        description: "Java is my first programming language that I learned proficiently. I use Java for AI and app development.",
+        description: "I attained proficiency in programming through learning Java as my first language. I primarily employ Java for the development of applications and Artificial Intelligence (AI) systems.",
         icon: java,
     },
     {
         name: "Python",
-        description: "Python is my second proficient language, but the most used one. I use Puthon for backend development, analysis, and app development.",
+        description: "Python is my second language in which I have attained proficiency, and it is also the language I use the most frequently. I apply Python to backend development, analysis, and application development.",
         icon: python,
     },
     {
         name: "Dart",
-        description: "I have started using Dart one year ago. I use Dart only for frontend development: web, iOS, Android, etc.",
+        description: "One year ago, I began utilizing Dart solely for frontend development purposes such as web, iOS, Android, and other related platforms.",
         icon: dart,
     },
     {
         name: "JavaScript",
-        description: "I have started using Javascript two years ago. I use JS for web development and small servers.",
+        description: "Two years ago, I began utilizing Javascript, which I primarily apply to web development and building small servers.",
         icon: js,
     },
     {
         name: "Flask",
-        description: "Flask is my main framework for backend development. I can build complex APIs and real times servers.",
+        description: "For backend development, Flask is my primary framework of choice, enabling me to construct sophisticated APIs and real-time servers.",
         icon: flask,
     },
     {
         name: "Node.js",
-        description: "Node.js is my favorite backend framework for small projects or real-time data transfers. I use it quite alot for prototypes.",
+        description: "When it comes to small projects or real-time data transfers, Node.js is my preferred backend framework, which I frequently use for prototyping.",
         icon: nodejs,
     },
     {
         name: "Flutter",
-        description: "Flutter is my main frontend framework. I can easily build web and mobiles app or create games.",
+        description: "Flutter serves as my primary frontend framework, empowering me to effortlessly construct web and mobile applications, as well as develop games.",
         icon: flutter,
     },
     {
         name: "React.js",
-        description: "I am quite new to React.js. However, I can easily build admirable user interfaces for web-applications and websites.",
+        description: "Although I am relatively new to React.js, I possess the proficiency to construct remarkable user interfaces for web applications and websites with ease.",
         icon: reactjs,
     },
     {
         name: "Nginx",
-        description: "I am a strong user of Nginx. This is the only web server that use in production for web apps, servers, and different platforms.",
+        description: "Nginx is the sole web server that I employ in a production environment for various platforms, including web apps and servers, and I am a proficient user of this software.",
         icon: nginx,
     },
     {
         name: "PostreSQL",
-        description: "PostgreSQL is my favorite database management system. I use it almost every time as a data warehouse.",
+        description: "I hold a preference for PostgreSQL as a database management system and utilize it nearly every time as a data warehouse.",
         icon: postresql,
     },
     {
         name: "Bash",
-        description: "My main OS is Linux; thus, I am using Bash for almost 10 years. I use it to automate mechanial routines.",
+        description: "For almost a decade, I have been using Bash as my primary shell due to my reliance on Linux as my main operating system. I leverage Bash to automate mechanical routines.",
         icon: terminal,
     },
     {
         name: "DigitalOcean",
-        description: "DigitalOcean is the cloud service provider that I know proficiently. I have deployed several large projects with DigitalOcean.",
+        description: "DigitalOcean is the cloud service provider in which I possess considerable proficiency, having deployed several substantial projects on their platform.",
         icon: do_,
     },
 ];
@@ -154,92 +154,92 @@ const technologies_min = [
 const technologies = [
     {
         name: "C",
-        description: "I have been using C mainly for kernel manipulations, synchonization, and parallel programming. I have enough knowledge to build complex system/designs.",
+        description: "My primary use of C has been for manipulating kernels, synchronization, and parallel programming. With my proficiency in the language, I am capable of developing intricate systems and designs.",
         icon: c,
     },
     {
         name: "C++",
-        description: "I don't use C++ as my main programming language. I use C++ only for robotics and robot simulations.",
+        description: "While C++ is not my primary programming language, I utilize it specifically for robotics and simulating robots.",
         icon: c_,
     },
     {
         name: "Java",
-        description: "Java is my first programming language that I learned proficiently. I use Java for AI and app development.",
+        description: "I attained proficiency in programming through learning Java as my first language. I primarily employ Java for the development of applications and Artificial Intelligence (AI) systems.",
         icon: java,
     },
     {
         name: "Python",
-        description: "Python is my second proficient language, but the most used one. I use Puthon for backend development, analysis, and app development.",
+        description: "Python is my second language in which I have attained proficiency, and it is also the language I use the most frequently. I apply Python to backend development, analysis, and application development.",
         icon: python,
     },
     {
         name: "Dart",
-        description: "I have started using Dart one year ago. I use Dart only for frontend development: web, iOS, Android, etc.",
+        description: "One year ago, I began utilizing Dart solely for frontend development purposes such as web, iOS, Android, and other related platforms.",
         icon: dart,
     },
     {
         name: "JavaScript",
-        description: "I have started using Javascript two years ago. I use JS for web development and small servers.",
+        description: "Two years ago, I began utilizing Javascript, which I primarily apply to web development and building small servers.",
         icon: js,
     },
     {
         name: "Flask",
-        description: "Flask is my main framework for backend development. I can build complex APIs and real times servers.",
+        description: "For backend development, Flask is my primary framework of choice, enabling me to construct sophisticated APIs and real-time servers.",
         icon: flask,
     },
     {
         name: "Django",
-        description: "I use Django only in large projects that require security, scability, or server-side rendering. I have sufficent knowledge to use it in production.",
+        description: "I solely employ Django in extensive projects that demand enhanced security, scalability, or server-side rendering. I possess adequate proficiency to use it in a production environment.",
         icon: django,
     },
     {
         name: "Node.js",
-        description: "Node.js is my favorite backend framework for small projects or real-time data transfers. I use it quite alot for prototypes.",
+        description: "When it comes to small projects or real-time data transfers, Node.js is my preferred backend framework, which I frequently use for prototyping.",
         icon: nodejs,
     },
     {
         name: "Flutter",
-        description: "Flutter is my main frontend framework. I can easily build web and mobiles app or create games.",
+        description: "Flutter serves as my primary frontend framework, empowering me to effortlessly construct web and mobile applications, as well as develop games.",
         icon: flutter,
     },
     {
         name: "React.js",
-        description: "I am quite new to React.js. However, I can easily build admirable user interfaces for web-applications and websites.",
+        description: "Although I am relatively new to React.js, I possess the proficiency to construct remarkable user interfaces for web applications and websites with ease.",
         icon: reactjs,
     },
     {
         name: "Flame",
-        description: "Flame is an extension framework for Flutter. I use Flame to build web and mobile games. I love this framework for its simplicity and compatibility.",
+        description: "Flame is a framework extension for Flutter that I utilize to build web and mobile games, and I particularly appreciate this framework for its simplicity and compatibility.",
         icon: flame,
     },
     {
         name: "Nginx",
-        description: "I am a strong user of Nginx. This is the only web server that use in production for web apps, servers, and different platforms.",
+        description: "Nginx is the sole web server that I employ in a production environment for various platforms, including web apps and servers, and I am a proficient user of this software.",
         icon: nginx,
     },
     {
         name: "PostreSQL",
-        description: "PostgreSQL is my favorite database management system. I use it almost every time as a data warehouse.",
+        description: "I hold a preference for PostgreSQL as a database management system and utilize it nearly every time as a data warehouse.",
         icon: postresql,
     },
     {
         name: "Bash",
-        description: "My main OS is Linux; thus, I am using Bash for almost 10 years. I use it to automate mechanial routines.",
+        description: "For almost a decade, I have been using Bash as my primary shell due to my reliance on Linux as my main operating system. I leverage Bash to automate mechanical routines.",
         icon: terminal,
     },
     {
         name: "DigitalOcean",
-        description: "DigitalOcean is the cloud service provider that I know proficiently. I have deployed several large projects with DigitalOcean.",
+        description: "DigitalOcean is the cloud service provider in which I possess considerable proficiency, having deployed several substantial projects on their platform.",
         icon: do_,
     },
     {
         name: "Firebase",
-        description: "Firebase is a nice tool in my arsenal that allows quickly develop prototypes of apps and platforms.",
+        description: "Firebase serves as a valuable tool in my arsenal, enabling me to rapidly develop prototypes for various applications and platforms.",
         icon: firebase,
     },
     {
         name: "GitHub",
-        description: "Well, it is hard to find someone who doesn't use GitHub. You can check all my projects here: github.com/DZykov .",
+        description: "It's rare to come across someone who doesn't use GitHub these days, and you can find all of my projects on my GitHub account at github.com/DZykov.",
         icon: github,
     },
 ];
@@ -252,7 +252,7 @@ const experiences = [
         iconBg: "#383E56",
         date: "September 2015 - June 2018",
         points: [
-            "I was a student at borading school Appleby College.",
+            "I was a student at boarding school Appleby College.",
             "Appleby College is a leading Canadian day and boarding school.",
         ],
     },
@@ -285,7 +285,7 @@ const projects = [
     {
         name: "Chrono",
         description:
-            "Web-based platform that allows users to post blogs/articles to the platform itself and internet. This is a full scaled project: web app was made with flutter, website pages were made with Node.js, and backend API was made with Flask. DigitalOcean was used to deploy the whole architecture.",
+            "A comprehensive project has been developed that involves a web-based platform for posting blogs/articles on both the platform itself and the internet. The platform has been implemented using various technologies, such as Flutter for developing the web app, Node.js for creating website pages, and Flask for building the backend API. Additionally, DigitalOcean has been utilized to deploy the entire architecture.",
         tags: [
             {
                 name: "flask",
@@ -319,7 +319,7 @@ const projects = [
     {
         name: "IRC Web Chat",
         description:
-            "Web application that allows users to create/join chat-rooms and text each other.",
+            "A web application has been created to enable users to create and join chat-rooms where they can send text messages to each other. The application allows users to create their own chat-rooms and invite others to join or join existing chat-rooms. Users can send text messages to each other within the chat-rooms and view the messages in real-time. The application has been designed to be user-friendly and easy to use, with a simple and intuitive interface. Additionally, the application has been optimized for scalability and performance to ensure a smooth and seamless experience for users, even as the number of users and chat-rooms grows.",
         tags: [
             {
                 name: "nodejs",
@@ -341,7 +341,7 @@ const projects = [
     {
         name: "Life Evolution",
         description:
-            "A visualization of Genetic Algorithm (Artificial Intelligence) that tries to create a creature that would survive in the provided model/world.",
+            "An Artificial Intelligence project has been developed which involves the visualization of a Genetic Algorithm. The goal of this algorithm is to create a creature that can survive in a given model or world. The algorithm starts with a population of random creatures and then applies genetic operators such as selection, crossover, and mutation to evolve the population over generations. The fitness of each creature is determined by how well it performs in the given model, such as by avoiding obstacles or collecting resources. The visualization aspect allows users to see the creatures evolve and compete for survival in real-time. The project has been designed to be scalable, allowing users to modify the model and adjust the parameters of the algorithm to explore different scenarios and optimize the performance of the creatures.",
         tags: [
             {
                 name: "java",
@@ -363,7 +363,7 @@ const projects = [
     {
         name: "WebShooter Online",
         description:
-            "A real-time game with multiplayer support.",
+            "A real-time web shooter game has been developed with multiplayer support. The game allows players to compete against each other in real-time, testing their shooting skills and reflexes. The game can be played from any web browser, with no need to download any additional software. The game includes option of creating public or private servers or rooms. The multiplayer support allows players to join together and play against each other in real-time. The game has been optimized for performance and scalability to ensure a smooth and seamless experience, even with large numbers of players.",
         tags: [
             {
                 name: "node.js",
@@ -385,7 +385,7 @@ const projects = [
     {
         name: "Infinite Fall",
         description:
-            "A game that supports all platforms: web, Android, iOS, linux, windows, etc.",
+            "A never-ending game platform has been developed that supports a wide range of platforms, including web, Android, iOS, Linux, Windows, and more. The game has been optimized to run on a wide range of devices and platforms, ensuring that players can enjoy the game regardless of their preferred device. The game has been designed with a user-friendly interface, making it easy for players to access the game on any platform they prefer.",
         tags: [
             {
                 name: "flutter",
@@ -407,7 +407,7 @@ const projects = [
     {
         name: "Voice Assistant PyShell",
         description:
-            "This is my personal take on terminal and voice assistant. VA is higly customazble and works outside of the box.",
+            "I have developed a unique approach to combining a terminal interface with a voice assistant that offers unparalleled customization options. This voice assistant is designed to work seamlessly with the terminal, providing users with an intuitive interface that allows for quick and easy access to a wide range of functions. The voice assistant is highly customizable, allowing users to tailor it to their specific needs and preferences. Additionally, this voice assistant is designed to work 'outside of the box', meaning it can be used with a wide range of software and hardware configurations, making it an ideal solution for a wide range of users. The combination of the terminal and voice assistant provides users with an unprecedented level of control and flexibility, allowing them to perform a wide range of tasks quickly and efficiently.",
         tags: [
             {
                 name: "python",
@@ -429,7 +429,7 @@ const projects = [
     {
         name: "TODO CLI",
         description:
-            "CLI implementation of TODO app.",
+            "I have developed a Command Line Interface (CLI) implementation of a TODO app, designed to help users manage their daily tasks and prioritize their workload. This CLI-based application offers a simple and intuitive interface, enabling users to easily create, edit, and manage their to-do lists without the need for a graphical user interface (GUI). With this app, users can quickly add new tasks, set due dates, and mark completed tasks, all through the convenience of a terminal interface. The TODO app has been designed to be easily portable and platform-independent, enabling users to run it on a wide range of operating systems and devices. The app is also open-source, making it easy for developers to contribute to the project and add new features to the app. With its powerful features and intuitive interface, this CLI-based TODO app is the perfect tool for anyone looking to streamline their workflow and boost their productivity.",
         tags: [
             {
                 name: "python",
@@ -451,7 +451,7 @@ const projects = [
     {
         name: "Console",
         description:
-            "Implementation of console/terminal in Java.",
+            "I have developed a robust and reliable console/terminal implementation in Java, providing users with a powerful and versatile command-line interface for interacting with their applications. This console/terminal implementation offers a wide range of features, including support for command history, tab completion, and customizable prompts. It also supports a variety of different output formats, including text, colors, and special symbols. Additionally, the console/terminal is highly customizable, with options to modify the font, size, and color of the text, as well as the background color. Additionally, the console support encryption/decryption of the files.",
         tags: [
             {
                 name: "java",
@@ -465,6 +465,10 @@ const projects = [
                 name: "shell",
                 color: "pink-text-gradient",
             },
+            {
+                name: "encryption",
+                color: "blue-text-gradient",
+            },
         ],
         image: javaConsole,
         project_link: [],
@@ -473,7 +477,7 @@ const projects = [
     {
         name: "Tags quality",
         description:
-            "The algorithm that sorts user's tags by user's interests. Morever, user may indicate how many new tags should be in the feed.",
+            "I have developed an advanced algorithm that uses machine learning to sort a user's tags based on their interests, providing a highly personalized and tailored experience. The algorithm analyzes a user's past behavior, including their search history and engagement with content, to identify patterns and determine their interests. Based on this analysis, the algorithm sorts the user's tags by relevance and importance, ensuring that the most interesting and relevant tags appear at the top of the feed. This algorithm was presented at Hackathon, and received special mentions.",
         tags: [
             {
                 name: "python",
