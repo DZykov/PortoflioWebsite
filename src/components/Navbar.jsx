@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linkedin, resume_MINE } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -43,11 +43,11 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Demid Zykov &nbsp;
-            <span className='sm:block hidden'>Portfolio</span>
+            <span className='lg:block hidden'>Portfolio</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden lg:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -58,9 +58,30 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li
+            key="|"
+            className={`font-poppins font-medium cursor-pointer text-[16px] "text-secondary"
+                    }`}
+          >
+            <a href="">|</a>
+          </li>
+          <li
+            key="My CV"
+            className={`font-poppins font-medium cursor-pointer text-[16px] "text-secondary"
+                    }`}
+          >
+            <a href={resume_MINE} download>My CV</a>
+          </li>
+          <li
+            key="My LinkedIn"
+            className={`font-poppins font-medium cursor-pointer text-[16px] "text-secondary"
+                    }`}
+          >
+            <a href="https://www.linkedin.com/in/demid-zykov-86618b165/"><img src={linkedin} width="22"></img></a>
+          </li>
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='lg:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -86,6 +107,20 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li
+                key="My CV"
+                className={`font-poppins font-medium cursor-pointer text-[16px] "text-secondary"
+                    }`}
+              >
+                <a href={resume_MINE} download>My CV</a>
+              </li>
+              <li
+                key="My LinkedIn"
+                className={`font-poppins font-medium cursor-pointer text-[16px] "text-secondary"
+                    }`}
+              >
+                <a href="https://www.linkedin.com/in/demid-zykov-86618b165/">My LinkedIn</a>
+              </li>
             </ul>
           </div>
         </div>

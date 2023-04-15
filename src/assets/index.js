@@ -8,6 +8,8 @@ import menu from "./general/menu.svg";
 import mobile from "./general/mobile.png";
 import web from "./general/web.png";
 import live from "./general/live.png";
+import linkedin from "./general/linkedin.png";
+import download from "./general/download.png";
 
 // projects
 import chrono from "./projects/chrono.png";
@@ -53,7 +55,13 @@ import ac from "./timeline/ac.png";
 import mentor from "./timeline/mentor.png";
 import uoft from "./timeline/uoft.png";
 
+// resume
+import resume_MINE from "./resume.pdf";
+
 export {
+  resume_MINE,
+  linkedin,
+  download,
   backend,
   close,
   creator,

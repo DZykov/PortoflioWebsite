@@ -3,7 +3,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
+import { services, about_me } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc"
 
@@ -47,9 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a skilled software developer with experience in Python, Java, Dart, C/C++, JS and expertise in Flutter, Flame, React.js, Flask, Django, and Node.js frameworks.
-        Additionaly, I am proficient in server development and arhitecture. I mainly use the combination of Nginx, DigitalOcean, and Ubuntu/Debian server.
-        I am a quick learner and I can can work in a team to create efficient, scalable, and user-friendly solutions that solve real-world problems.
+        {about_me}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

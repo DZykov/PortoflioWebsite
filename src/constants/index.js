@@ -51,11 +51,11 @@ export const navLinks = [
         title: "Experience",
     },
     {
-        id: "tech",
+        id: "skills",
         title: "Skills",
     },
     {
-        id: "works",
+        id: "projects",
         title: "Projects",
     },
     {
@@ -82,6 +82,16 @@ const services = [
         icon: creator,
     },
 ];
+
+const header_me = ["I am a full stack developer with incline ", "to the backend technologies."];
+
+const about_me = `As a skilled software developer, I have extensive experience in web, backend and platform development, focusing on technologies such as Flutter, Flame, React.js, Flask, Django, and Node.js frameworks.  
+
+I also have significant experience with clouds, servers and version control systems such as DigitalOcean, Nginx and Git. I am using these technologies to launch small and full-scale applications.
+
+My technical expertise extends to programming languages such as C/C++, Python, Java, Dart, and JavaScript, allowing me to work on various projects across multiple platforms. I am exceptionally skilled in Python and Java and passionate about delivering business solutions by designing and developing robust, securely structured. I am highly motivated, detail-oriented, and committed to staying up-to-date with the latest technologies. Additionally, I am passionate about security and optimization: it is critical for any great software to be optimized for the users and has protection by the highest standards. 
+
+Practising Agile methodologies has enabled me to become an excellent collaborator. I am adept at functioning in a team setting, consistently producing top-quality work within deadlines. My skill set in web development, programming languages, cloud and distributed computing, expertise in Agile methodologies and proficiency in coding make me a valuable member of any team I collaborate with.`;
 
 const technologies_min = [
     {
@@ -252,8 +262,10 @@ const experiences = [
         iconBg: "#383E56",
         date: "September 2015 - June 2018",
         points: [
-            "I was a student at boarding school Appleby College.",
-            "Appleby College is a leading Canadian day and boarding school.",
+            "I graduated from a leading Canadian day and boarding school and an international independent school, Appleby College.",
+            "I was a valuable student because I got leadership positions as Senior Leader and Deck Captain, a person who helps middle schoolers and other boarding students, respectively.",
+            "I was responsible for organizing community gatherings, meetings, and events.",
+            "Appleby College helped me to develop my character and skills, such as time management, responsibility, a sense of community and teamwork.",
         ],
     },
     {
@@ -263,9 +275,9 @@ const experiences = [
         iconBg: "#383E56",
         date: "May 2018 - Jan 2020",
         points: [
-            "Helping other students to joing Canadian culture and society.",
-            "Providing mental help and assistance.",
-            "Providing help with courses.",
+            "Top alumni and student leaders have volunteered to prepare new students for success. Mentors help mentee expand their interests, navigate the school community, and build key skills.",
+            "My aim was to create a sense of community and belonging for new students and to help them succeed academically and socially.",
+            "Another goal was to integrate international students into Canadian society and help to build valuable connections.",
         ],
     },
     {
@@ -275,8 +287,11 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "September 2018 - June 2023",
         points: [
-            "I was a student at University of Toronto Mississauga campus.",
             "I graduate with Honours Bachelor of Science: Computer Science, Phillosophy, and Mathematics.",
+            "I have acquired a firm grasp of essential computer science concepts such as data structures, algorithms, computer architecture, and software engineering principles.",
+            "I have strong knowledge of algorithms, mathematical analysis, optimization, and abstract and intermediate logic.",
+            "Additionally, I have acquired vital skills in analytical philosophy, such as logical analysis of concepts, meta-analysis, and structural analysis.",
+            "I have practical exposure to development methodologies such as Agile, Scrum, and Waterfall, and I have effectively collaborated in teams to deliver top-notch software solutions.",
         ],
     },
 ];
@@ -498,4 +513,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, technologies_min, experiences, projects };
+export { header_me, about_me, services, technologies, technologies_min, experiences, projects };
