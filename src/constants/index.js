@@ -337,7 +337,7 @@ const projects = [
             "A web application has been created to enable users to create and join chat-rooms where they can send text messages to each other. The application allows users to create their own chat-rooms and invite others to join or join existing chat-rooms. Users can send text messages to each other within the chat-rooms and view the messages in real-time. The application has been designed to be user-friendly and easy to use, with a simple and intuitive interface. Additionally, the application has been optimized for scalability and performance to ensure a smooth and seamless experience for users, even as the number of users and chat-rooms grows.",
         tags: [
             {
-                name: "nodejs",
+                name: "node.js",
                 color: "blue-text-gradient",
             },
             {
