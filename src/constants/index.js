@@ -287,7 +287,7 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "September 2018 - June 2023",
         points: [
-            "I graduate with Honours Bachelor of Science: Computer Science, Phillosophy, and Mathematics.",
+            "I graduate with Honours Bachelor of Science: Computer Science, Philosophy, and Mathematics.",
             "I have acquired a firm grasp of essential computer science concepts such as data structures, algorithms, computer architecture, and software engineering principles.",
             "I have strong knowledge of algorithms, mathematical analysis, optimization, and abstract and intermediate logic.",
             "Additionally, I have acquired vital skills in analytical philosophy, such as logical analysis of concepts, meta-analysis, and structural analysis.",
