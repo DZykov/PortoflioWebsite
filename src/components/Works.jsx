@@ -158,7 +158,7 @@ const ProjectCardMobile = ({
 };
 
 const Works = () => {
-  if (isMobile && window.innerWidth <= 900) {
+  if (isMobile || window.innerWidth <= 900) {
     return (
       <>
         <div variants={textVariant()}>
