@@ -83,7 +83,7 @@ const services = [
     },
 ];
 
-const header_me = ["I am a full stack developer with incline ", "to the backend technologies."];
+const header_me = ["I am a full stack developer with preference ", "to the backend technologies."];
 
 const about_me = `As a skilled software developer, I have extensive experience in web, backend and platform development, focusing on technologies such as Flutter, Flame, React.js, Flask, Django, and Node.js frameworks.  
 

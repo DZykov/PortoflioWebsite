@@ -10,6 +10,14 @@ import { isMobile } from 'react-device-detect';
 
 const Tech = () => {
   const [nameInput, setNameInput] = useState('The balls are 3D and interactable! Click on any ball to get more information about technology and my relation to it.');
+  const [isOpen, setIsOpen] = useState(true)
+
+
+
+  const variants = {
+    open: { opacity: 1, x: 0 },
+    closed: { opacity: 0, x: "-100%" },
+  }
 
   function toggleHide(name) {
     setNameInput(name);
@@ -19,16 +27,17 @@ const Tech = () => {
     return (
       <>
         <motion.div variants={textVariant()}>
-          <p className={`${styles.sectionSubText} text-center`}>
+          <p className={`${styles.sectionSubText}`}>
             What I have mastered so far
           </p>
-          <h2 className={`${styles.sectionHeadText} text-center`}>
+          <h2 className={`${styles.sectionHeadText}`}>
             My Skills.
           </h2>
         </motion.div>
 
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={variants}
+          animate={isOpen ? "open" : "closed"}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center content-center items-center mx-auto'
         >
           {nameInput}
@@ -40,7 +49,11 @@ const Tech = () => {
             <div className="w-28 h-28 flex items-center justify-center rounded-full bg-tertiary shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300" key={technology.name}>
               <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center transform hover:rotate-12 transition-all duration-300"
                 onClick={(e) => {
+                  setIsOpen(isOpen => !isOpen);
                   toggleHide(technology.description);
+                  setTimeout(function () {
+                    setIsOpen(isOpen => !isOpen);
+                  }, 1);
                 }}>
                 <img className="w-16 h-16" src={technology.icon} alt={technology.name} />
               </div>
@@ -50,20 +63,22 @@ const Tech = () => {
       </>
     )
   }
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+        <p className={`${styles.sectionSubText}`}>
           What I have mastered so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <h2 className={`${styles.sectionHeadText}`}>
           My Skills.
         </h2>
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center content-center items-center mx-auto'
+        variants={variants}
+        animate={isOpen ? "open" : "closed"}
+        className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px] content-center items-center'
       >
         {nameInput}
       </motion.p>
@@ -72,7 +87,11 @@ const Tech = () => {
         {technologies_min.map((technology) => (
           <div className='w-28 h-28' key={technology.name}
             onClick={(e) => {
+              setIsOpen(isOpen => !isOpen);
               toggleHide(technology.description);
+              setTimeout(function () {
+                setIsOpen(isOpen => !isOpen);
+              }, 1);
             }}>
             <BallCanvas icon={technology.icon} />
           </div>
