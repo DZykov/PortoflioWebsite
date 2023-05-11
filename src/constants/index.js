@@ -333,7 +333,7 @@ const projects = [
         ],
         image: chrono,
         project_link: ["https://app.chrono.pw", "https://chrono.pw/demid_zykov"],
-        source_code_link: "https://github.com/DZykov/Chrono_public",
+        source_code_link: "https://github.com/DZykov/Chrono_public#Index",
     },
     {
         name: "IRC Web Chat",
@@ -355,7 +355,7 @@ const projects = [
         ],
         image: webchat,
         project_link: ["https://webchat.zykov.xyz"],
-        source_code_link: "https://github.com/DZykov/WebChat",
+        source_code_link: "https://github.com/DZykov/WebChat#Index",
     },
     {
         name: "Life Evolution",
@@ -377,7 +377,7 @@ const projects = [
         ],
         image: genalg,
         project_link: [],
-        source_code_link: "https://github.com/DZykov/java-gen-alg",
+        source_code_link: "https://github.com/DZykov/java-gen-alg#Index",
     },
     {
         name: "WebShooter Online",
@@ -399,7 +399,7 @@ const projects = [
         ],
         image: webshooter,
         project_link: ["https://onlinegame.zykov.xyz"],
-        source_code_link: "https://github.com/DZykov/MultiplayerWebGame",
+        source_code_link: "https://github.com/DZykov/MultiplayerWebGame#Index",
     },
     {
         name: "Infinite Fall",
@@ -421,7 +421,7 @@ const projects = [
         ],
         image: InfiniteFall,
         project_link: ["https://webgame.zykov.xyz"],
-        source_code_link: "https://github.com/DZykov/InfiniteFall",
+        source_code_link: "https://github.com/DZykov/InfiniteFall#Index",
     },
     {
         name: "Voice Assistant PyShell",
@@ -443,7 +443,7 @@ const projects = [
         ],
         image: pyshell_va,
         project_link: [],
-        source_code_link: "https://github.com/DZykov/PyShell",
+        source_code_link: "https://github.com/DZykov/PyShell#Index",
     },
     {
         name: "TODO CLI",
@@ -465,7 +465,7 @@ const projects = [
         ],
         image: cmd_todos,
         project_link: [],
-        source_code_link: "https://github.com/DZykov/adventure-cli-todo",
+        source_code_link: "https://github.com/DZykov/adventure-cli-todo#Index",
     },
     {
         name: "Console",
@@ -491,7 +491,7 @@ const projects = [
         ],
         image: javaConsole,
         project_link: [],
-        source_code_link: "https://github.com/DZykov/Java-console",
+        source_code_link: "https://github.com/DZykov/Java-console#Index",
     },
     {
         name: "Tags quality",
@@ -513,7 +513,7 @@ const projects = [
         ],
         image: tag_quiality,
         project_link: [],
-        source_code_link: "https://github.com/DZykov/Userteam",
+        source_code_link: "https://github.com/DZykov/Userteam#Tprogger",
     },
 ];
 
