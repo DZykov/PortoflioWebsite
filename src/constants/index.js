@@ -47,16 +47,16 @@ export const navLinks = [
         title: "About",
     },
     {
+        id: "projects",
+        title: "Projects",
+    },
+    {
         id: "experience",
         title: "Experience",
     },
     {
         id: "skills",
         title: "Skills",
-    },
-    {
-        id: "projects",
-        title: "Projects",
     },
     {
         id: "contact",
@@ -68,18 +68,22 @@ const services = [
     {
         title: "Backend Developer",
         icon: backend,
+        description: "Experienced programmer in Flask, Django, Spring, Node.js, Nginx, and cloud services.",
     },
     {
         title: "Web Developer",
         icon: web,
+        description: "Strong knowledge of Flutter, React, CSS, and Tailwind.",
     },
     {
         title: "Flutter Developer",
         icon: mobile,
+        description: "Built full scaled applications and platforms ready for production.",
     },
     {
         title: "Game developer",
         icon: creator,
+        description: "Experienced developer in Godot and Unity.",
     },
 ];
 

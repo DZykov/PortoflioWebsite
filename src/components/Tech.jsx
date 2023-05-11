@@ -28,7 +28,7 @@ const Tech = () => {
       <>
         <motion.div variants={textVariant()}>
           <p className={`${styles.sectionSubText}`}>
-            What I have mastered so far
+            What magic I have mastered so far
           </p>
           <h2 className={`${styles.sectionHeadText}`}>
             My Skills.
@@ -68,7 +68,7 @@ const Tech = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>
-          What I have mastered so far
+          What magic I have mastered so far
         </p>
         <h2 className={`${styles.sectionHeadText}`}>
           My Skills.
