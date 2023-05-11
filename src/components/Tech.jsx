@@ -16,7 +16,7 @@ const Tech = () => {
 
   const variants = {
     open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: "-100%" },
+    closed: { opacity: 0, x: "100%" },
   }
 
   function toggleHide(name) {
@@ -91,7 +91,7 @@ const Tech = () => {
               toggleHide(technology.description);
               setTimeout(function () {
                 setIsOpen(isOpen => !isOpen);
-              }, 1);
+              }, 3);
             }}>
             <BallCanvas icon={technology.icon} />
           </div>
