@@ -240,6 +240,7 @@ const Works = () => {
       </>
     )
   }
+
   return (
     <>
       <motion.div variants={textVariant()}>
