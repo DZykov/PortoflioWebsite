@@ -56,7 +56,7 @@ import mentor from "./timeline/mentor.png";
 import uoft from "./timeline/uoft.png";
 
 // resume
-import resume_MINE from "./DemidZykovResume.pdf";
+import resume_MINE from "./ResumeDemidZykov.pdf";
 
 export {
   resume_MINE,

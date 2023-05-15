@@ -68,33 +68,6 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
-        <br></br>
-
-        <div class="inline-flex gap-2" role="group">
-
-          {project_link.map(function (link) {
-            return (<button
-              type="button"
-              class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
-              data-te-ripple-init
-              data-te-ripple-color="light"
-              onClick={() => window.open(JSON.stringify(link).replaceAll('"', ''), "_blank", 'noreferrer')}
-            >
-              Live Demo
-            </button>);
-          })}
-
-          <button
-            type="button"
-            class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
-            data-te-ripple-init
-            data-te-ripple-color="light"
-            onClick={() => window.open(source_code_link, "_blank", 'noreferrer')}
-          >
-            Source Code
-          </button>
-        </div>
-
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
@@ -105,6 +78,32 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        <br></br>
+        <div className="inline-flex gap-2" role="group">
+
+          {project_link.map(function (link) {
+            return (<button
+              type="button"
+              className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              onClick={() => window.open(JSON.stringify(link).replaceAll('"', ''), "_blank", 'noreferrer')}
+            >
+              Live Demo
+            </button>);
+          })}
+
+          <button
+            type="button"
+            className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+            onClick={() => window.open(source_code_link, "_blank", 'noreferrer')}
+          >
+            Source Code
+          </button>
+        </div>
+
       </Tilt>
     </motion.div>
   );
@@ -168,31 +167,7 @@ const ProjectCardMobile = ({
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
-        <br></br>
-        <div class="inline-flex gap-2" role="group">
 
-          {project_link.map(function (link) {
-            return (<button
-              type="button"
-              class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
-              data-te-ripple-init
-              data-te-ripple-color="light"
-              onClick={() => window.open(JSON.stringify(link).replaceAll('"', ''), "_blank", 'noreferrer')}
-            >
-              Live Demo
-            </button>);
-          })}
-
-          <button
-            type="button"
-            class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
-            data-te-ripple-init
-            data-te-ripple-color="light"
-            onClick={() => window.open(source_code_link, "_blank", 'noreferrer')}
-          >
-            Source Code
-          </button>
-        </div>
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
@@ -203,6 +178,33 @@ const ProjectCardMobile = ({
             </p>
           ))}
         </div>
+
+        <br></br>
+        <div className="inline-flex gap-2" role="group">
+
+          {project_link.map(function (link) {
+            return (<button
+              type="button"
+              className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              onClick={() => window.open(JSON.stringify(link).replaceAll('"', ''), "_blank", 'noreferrer')}
+            >
+              Live Demo
+            </button>);
+          })}
+
+          <button
+            type="button"
+            className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+            onClick={() => window.open(source_code_link, "_blank", 'noreferrer')}
+          >
+            Source Code
+          </button>
+        </div>
+
       </Tilt>
     </div>
   );
@@ -212,9 +214,9 @@ const Works = () => {
   if (isMobile && window.innerWidth <= 900) {
     return (
       <>
-        <div variants={`${textVariant()} text-center mx-auto`}>
-          <p className={`${styles.sectionSubText} text-center mx-auto`}>My work</p>
-          <h2 className={`${styles.sectionHeadText} text-center mx-auto`}>Projects.</h2>
+        <div variants={`${textVariant()}`}>
+          <p className={`${styles.sectionSubText}`}>My work</p>
+          <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
         </div>
 
         <div className='w-full flex'>
