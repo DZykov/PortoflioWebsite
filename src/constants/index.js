@@ -303,7 +303,7 @@ const experiences = [
 
 const projects = [
     {
-        name: "E-commerse",
+        name: "E-commerce",
         description:
             "A demo ecommerse service was made, which supports user authentication, admin panel, and cart functionality.. The platform has been implemented using various technologies, such as React.js for developing the web app, and Spring Boot for building the backend API. Additionally, DigitalOcean has been utilized to deploy the entire architecture.",
         tags: [
