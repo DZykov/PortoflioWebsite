@@ -16,6 +16,7 @@ import {
     tag_quiality,
     webchat,
     webshooter,
+    ecommerce,
     django,
     flask,
     nodejs,
@@ -301,6 +302,40 @@ const experiences = [
 ];
 
 const projects = [
+    {
+        name: "E-commerse",
+        description:
+            "A demo ecommerse service was made, which supports user authentication, admin panel, and cart functionality.. The platform has been implemented using various technologies, such as React.js for developing the web app, and Spring Boot for building the backend API. Additionally, DigitalOcean has been utilized to deploy the entire architecture.",
+        tags: [
+            {
+                name: "Spring Boot",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "React.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "postgresql",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "ssl",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nginx",
+                color: "green-text-gradient",
+            },
+            {
+                name: "digitalocean",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ecommerce,
+        project_link: ["https://ecommerce.zykov.xyz/", "http://ecommerce.back.zykov.xyz/swagger-ui/index.html"],
+        source_code_link: "https://github.com/DZykov/E-commerce#Index",
+    },
     {
         name: "Chrono",
         description:

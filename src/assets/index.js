@@ -21,6 +21,7 @@ import pyshell_va from "./projects/pyshell+va.png";
 import tag_quiality from "./projects/tag_quality.jpeg";
 import webchat from "./projects/webchat.png";
 import webshooter from "./projects/webshooter.png";
+import ecommerce from "./projects/ecommerce.png";
 
 // skills frameworks back
 import django from "./skills/frameworks_back/django.png";
@@ -75,6 +76,7 @@ export {
   cmd_todos,
   genalg,
   InfiniteFall,
+  ecommerce,
   javaConsole,
   pyshell_va,
   tag_quiality,
